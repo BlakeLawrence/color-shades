@@ -1,12 +1,9 @@
-let playAgain = "y";
 let userName = prompt("Welcome to RPS, What is your name?");
-let playerScore = 0;
-let computerScore = 0;
 let player = prompt(`hello ${userName}, enter your move (R, P or S)`);
 let playerMove = player.toUpperCase();
 let moves = ["ROCK", "PAPER", "SCISSORS"];
-
-console.log(playerMove);
+let playerScore = 0;
+let computerScore = 0;
 
 if (playerMove === "R") {
   playerMove = "ROCK";
@@ -22,7 +19,7 @@ let computerMove = moves[Math.floor(Math.random() * 3)];
 console.log(`PC: ${computerMove}`);
 if (playerMove === computerMove) {
   prompt(
-    `its a draw!!! Your score is ${playerScore} and computer's score is ${computerScore}`
+    `its a draw!!! you both chose ${playerMove}... The score is: \n Player:${playerScore} \n Computer: ${computerScore}`
   );
 } else if (
   (playerMove === "ROCK" && computerMove === "SCISSORS") ||
@@ -31,12 +28,12 @@ if (playerMove === computerMove) {
 ) {
   playerScore++;
   prompt(
-    `YOU WIN!!!!, your score is ${playerScore} and computer's score is ${computerScore}`
+    `you WIN!!! your ${playerMove} beats the computers ${computerMove}... The score is: \n Player:${playerScore} \n Computer: ${computerScore}`
   );
 } else {
   computerScore++;
   prompt(
-    `YOU LOSE :( Your score is ${playerScore} and computer's score is ${computerScore}`
+    `you LOSE!!! the computers ${computerMove} beats your ${playerMove}... The score is: \n Player:${playerScore} \n Computer: ${computerScore}`
   );
 }
 playAgain = prompt(
