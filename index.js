@@ -40,53 +40,53 @@
 // }
 // playAgain = prompt("to continue, enter y, or n to stop");
 
-// QUIZ
+// QUIZ game
 
-const name = prompt("this is the quiz game, what is your name?");
-alert(`Hello ${name}, welcome and enjoy`);
-alert("here comes question one...");
-let score = 0;
+// const name = prompt("this is the quiz game, what is your name?");
+// alert(`Hello ${name}, welcome and enjoy`);
+// alert("here comes question one...");
+// let score = 0;
 
-answerArrayUK = ["london", "Newcastle", "Manchester", "Cornwall"];
-answerArraySpain = ["Barcelona", "Madrid", "Sitges", "Marbella"];
-answerArraySA = ["Durban", "Cape Town", "Johannesburg", "Port Elizabeth"];
-answerArrayItaly = ["Venice", "Naples", "Milan", "Pozitano"];
-answerArrayGreece = ["Athens", "Corfu", "XXII", "XXXXXIIIII"];
+// answerArrayUK = ["london", "Newcastle", "Manchester", "Cornwall"];
+// answerArraySpain = ["Barcelona", "Madrid", "Sitges", "Marbella"];
+// answerArraySA = ["Durban", "Cape Town", "Johannesburg", "Port Elizabeth"];
+// answerArrayItaly = ["Venice", "Naples", "Milan", "Pozitano"];
+// answerArrayGreece = ["Athens", "Corfu", "XXII", "XXXXXIIIII"];
 
-let answerOne = prompt(
-  `Score = ${score} \n What is the capital of UK? \n A: ${answerArrayUK[0]} \n B: ${answerArrayUK[1]} \n C: ${answerArrayUK[2]} \n D: ${answerArrayUK[3]}`
-);
-if (answerOne.toLowerCase() === "a") {
-  score++;
-}
-console.log(score);
-let answerTwo = prompt(
-  `Score = ${score} \n What is the capital of Spain? \n A: ${answerArraySpain[0]} \n B: ${answerArraySpain[1]} \n C: ${answerArraySpain[2]} \n D: ${answerArraySpain[3]}`
-);
-if (answerTwo === "b") {
-  score++;
-}
-console.log(score);
-let answerThree = prompt(
-  `Score = ${score} \n What is the capital of South Africa? \n A: ${answerArraySA[0]} \n B: ${answerArraySA[1]} \n C: ${answerArraySA[2]} \n D: ${answerArraySA[3]}`
-);
-if (answerThree === "c") {
-  score++;
-}
-console.log(score);
-let answerFour = prompt(
-  `Score = ${score} \n What is the capital of Italy? \n A: ${answerArrayItaly[0]} \n B: ${answerArrayItaly[1]} \n C: ${answerArrayItaly[2]} \n D: ${answerArrayItaly[3]}`
-);
-if (answerFour === "c") {
-  score++;
-}
-console.log(score);
-let answerFive = prompt(
-  `Score = ${score} \n What is the capital of Greece? \n A: ${answerArrayGreece[0]} \n B: ${answerArrayGreece[1]} \n C: ${answerArrayGreece[2]} \n D: ${answerArrayGreece[3]}`
-);
-if (answerFive === "a") {
-  score++;
-}
-console.log(score);
+// let answerOne = prompt(
+//   `Score = ${score} \n What is the capital of UK? \n A: ${answerArrayUK[0]} \n B: ${answerArrayUK[1]} \n C: ${answerArrayUK[2]} \n D: ${answerArrayUK[3]}`
+// );
+// if (answerOne.toLowerCase() === "a") {
+//   score++;
+// }
+// console.log(score);
+// let answerTwo = prompt(
+//   `Score = ${score} \n What is the capital of Spain? \n A: ${answerArraySpain[0]} \n B: ${answerArraySpain[1]} \n C: ${answerArraySpain[2]} \n D: ${answerArraySpain[3]}`
+// );
+// if (answerTwo === "b") {
+//   score++;
+// }
+// console.log(score);
+// let answerThree = prompt(
+//   `Score = ${score} \n What is the capital of South Africa? \n A: ${answerArraySA[0]} \n B: ${answerArraySA[1]} \n C: ${answerArraySA[2]} \n D: ${answerArraySA[3]}`
+// );
+// if (answerThree === "c") {
+//   score++;
+// }
+// console.log(score);
+// let answerFour = prompt(
+//   `Score = ${score} \n What is the capital of Italy? \n A: ${answerArrayItaly[0]} \n B: ${answerArrayItaly[1]} \n C: ${answerArrayItaly[2]} \n D: ${answerArrayItaly[3]}`
+// );
+// if (answerFour === "c") {
+//   score++;
+// }
+// console.log(score);
+// let answerFive = prompt(
+//   `Score = ${score} \n What is the capital of Greece? \n A: ${answerArrayGreece[0]} \n B: ${answerArrayGreece[1]} \n C: ${answerArrayGreece[2]} \n D: ${answerArrayGreece[3]}`
+// );
+// if (answerFive === "a") {
+//   score++;
+// }
+// console.log(score);
 
-alert(`thanks for the game, your score = ${score}`);
+// alert(`thanks for the game, your score = ${score}`);
