@@ -39,3 +39,37 @@
 //   );
 // }
 // playAgain = prompt("to continue, enter y, or n to stop");
+
+// QUIZ
+
+const name = prompt("this is the quiz game, what is your name?");
+alert(`Hello ${name}, welcome and enjoy`);
+alert("here comes question one...");
+let score = 0;
+let answerOne = prompt("What is the capital of UK");
+if (answerOne === "london") {
+  score++;
+}
+console.log(score);
+let answerTwo = prompt("What is the capital of Spain");
+if (answerTwo === "barcelona") {
+  score++;
+}
+console.log(score);
+let answerThree = prompt("What is the capital of South Africa");
+if (answerThree === "johannesburg") {
+  score++;
+}
+console.log(score);
+let answerFour = prompt("What is the capital of italy");
+if (answerFour === "milan") {
+  score++;
+}
+console.log(score);
+let answerFive = prompt("What is the capital of Greece");
+if (answerFive === "athens") {
+  score++;
+}
+console.log(score);
+
+alert(`thanks for the game, your score = ${score}`);
