@@ -96,21 +96,63 @@
 const heading = document.getElementById("main-heading");
 console.log(heading);
 
+const headingDiv = document.getElementById("heading-div");
+
 // BLUE LOGIC
 const blueShades = [
-  "#65DEF1",
-  "#2274A5",
-  "#A5D8FF",
-  "#2F52E0",
-  "#3423A6",
-  "#7180B9",
-  "#374A67",
-  "#19647E",
-  "#3F88C5",
-  "#032B43",
-  "#648DE5",
-  "#304C89",
-  "#2DE1FC",
+  {
+    name: "1 blue",
+    color: "#65DEF1",
+  },
+  {
+    name: "2 blue",
+    color: "#2274A5",
+  },
+  {
+    name: "3 blue",
+    color: "#A5D8FF",
+  },
+  {
+    name: "4 blue",
+    color: "#2F52E0",
+  },
+  {
+    name: "5 blue",
+    color: "#3423A6",
+  },
+  {
+    name: "6 blue",
+    color: "#7180B9",
+  },
+  {
+    name: "7 blue",
+    color: "#374A67",
+  },
+
+  {
+    name: "8 blue",
+    color: "#19647E",
+  },
+  {
+    name: "9 blue",
+    color: "#3F88C5",
+  },
+  {
+    name: "10 blue",
+    color: "#032B43",
+  },
+  {
+    name: "11 blue",
+    color: "#648DE5",
+  },
+  {
+    name: "12 blue",
+    color: "#304C89",
+  },
+  {
+    name: "13 blue",
+    color: "#2DE1FC",
+  },
 ];
 
 const blueSquare = document.getElementById("square1");
@@ -122,27 +164,67 @@ blueButton.addEventListener("click", randomBlue);
 function randomBlue() {
   let random =
     blueShades[Math.floor(Math.random() * blueShades.length - 1) + 1];
-  blueSquare.style.backgroundColor = random;
 
-  blueSquare.innerText = random;
-  heading.style.color = random;
+  blueSquare.style.backgroundColor = random.color;
+
+  blueSquare.innerText = random.color;
+  heading.style.color = random.color;
+  heading.innerHTML = random.name;
+  headingDiv.style.justifyContent = "left";
 }
 
 //PINK LOGIC
+
 const pinkShades = [
-  "#F49CBB",
-  "#AA1155",
-  "#D56AA0",
-  "#DAA49A",
-  "#D199B6",
-  "#C493B0",
-  "#EEABC4",
-  "#E15A97",
-  "#C799A6",
-  "#E3C0D3",
-  "#FF99C9",
-  "#F7B2AD",
-  "#F26A8D",
+  {
+    name: "1 pink",
+    color: "#F49CBB",
+  },
+  {
+    name: "2 pink",
+    color: "#AA1155",
+  },
+  {
+    name: "3 pink",
+    color: "#D56AA0",
+  },
+  {
+    name: "4 pink",
+    color: "#DAA49A",
+  },
+  {
+    name: "5 pink",
+    color: "#D199B6",
+  },
+  {
+    name: "6 pink",
+    color: "#C493B0",
+  },
+  {
+    name: "7 pink",
+    color: "#EEABC4",
+  },
+
+  {
+    name: "8 pink",
+    color: "#E15A97",
+  },
+  {
+    name: "9 pink",
+    color: "#E3C0D3",
+  },
+  {
+    name: "10 pink",
+    color: "#FF99C9",
+  },
+  {
+    name: "11 pink",
+    color: "#F7B2AD",
+  },
+  {
+    name: "12 pink",
+    color: "#F26A8D",
+  },
 ];
 
 const pinkSquare = document.getElementById("square2");
@@ -154,27 +236,69 @@ pinkButton.addEventListener("click", randomPink);
 function randomPink() {
   let random =
     pinkShades[Math.floor(Math.random() * pinkShades.length - 1) + 1];
-  pinkSquare.style.backgroundColor = random;
 
-  pinkSquare.innerText = random;
-  heading.style.color = random;
+  pinkSquare.style.backgroundColor = random.color;
+
+  pinkSquare.innerText = random.color;
+  heading.style.color = random.color;
+  heading.innerHTML = random.name;
+  headingDiv.style.justifyContent = "center";
 }
-
 //GREEN LOGIC
 const greenShades = [
-  "#436436",
-  "#D6F599",
-  "#D2FF28",
-  "#C5D86D",
-  "#1B998B",
-  "#C8FFBE",
-  "#003B36",
-  "#012622",
-  "#7FD1B9",
-  "#519872",
-  "#0FA3B1",
-  "#3B5249",
-  "#A4B494",
+  {
+    name: "1 green",
+    color: "#436436",
+  },
+  {
+    name: "2 green",
+    color: "#D6F599",
+  },
+  {
+    name: "3 green",
+    color: "#D2FF28",
+  },
+  {
+    name: "4 green",
+    color: "#C5D86D",
+  },
+  {
+    name: "5 green",
+    color: "#1B998B",
+  },
+  {
+    name: "6 green",
+    color: "#C8FFBE",
+  },
+  {
+    name: "7 green",
+    color: "#003B36",
+  },
+
+  {
+    name: "8 green",
+    color: "#012622",
+  },
+  {
+    name: "9 green",
+    color: "#7FD1B9",
+  },
+  {
+    name: "10 green",
+    color: "#519872",
+  },
+  {
+    name: "11 green",
+    color: "#0FA3B1",
+  },
+  {
+    name: "12 green",
+    color: "#3B5249",
+  },
+  {
+    name: "12 green",
+    color: "#A4B494",
+  },
 ];
 const greenSquare = document.getElementById("square3");
 
@@ -185,8 +309,11 @@ greenButton.addEventListener("click", randomGreen);
 function randomGreen() {
   let random =
     greenShades[Math.floor(Math.random() * greenShades.length - 1) + 1];
-  greenSquare.style.backgroundColor = random;
 
-  greenSquare.innerText = random;
-  heading.style.color = random;
+  greenSquare.style.backgroundColor = random.color;
+
+  greenSquare.innerText = random.color;
+  heading.style.color = random.color;
+  heading.innerHTML = random.name;
+  headingDiv.style.justifyContent = "right";
 }

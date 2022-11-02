@@ -9,8 +9,16 @@ body {
 h1 {
   font-family: monospace;
   font-size: 4.5rem;
+  text-align: center;
 }
 
+#heading-div {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  padding-left: 250px;
+  padding-right: 225px;
+}
 #square1 {
   display: flex;
   justify-content: center;
