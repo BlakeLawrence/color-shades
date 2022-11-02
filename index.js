@@ -93,6 +93,9 @@
 
 // Color changer app
 
+const heading = document.getElementById("main-heading");
+console.log(heading);
+
 // BLUE LOGIC
 const blueShades = [
   "#65DEF1",
@@ -122,6 +125,7 @@ function randomBlue() {
   blueSquare.style.backgroundColor = random;
 
   blueSquare.innerText = random;
+  heading.style.color = random;
 }
 
 //PINK LOGIC
@@ -153,6 +157,7 @@ function randomPink() {
   pinkSquare.style.backgroundColor = random;
 
   pinkSquare.innerText = random;
+  heading.style.color = random;
 }
 
 //GREEN LOGIC
@@ -183,4 +188,5 @@ function randomGreen() {
   greenSquare.style.backgroundColor = random;
 
   greenSquare.innerText = random;
+  heading.style.color = random;
 }
