@@ -9,10 +9,10 @@
   justify-content: center;
   align-items: center;
   color: white;
-  font-size: x-large;
+  font-size: xx-large;
   font-family: monospace;
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   background-color: aqua;
   margin: 50px;
   border-radius: 5px;
@@ -23,10 +23,10 @@
   justify-content: center;
   align-items: center;
   color: white;
-  font-size: x-large;
+  font-size: xx-large;
   font-family: monospace;
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   background-color: pink;
   margin: 50px;
   border-radius: 5px;
@@ -37,10 +37,10 @@
   justify-content: center;
   align-items: center;
   color: white;
-  font-size: x-large;
+  font-size: xx-large;
   font-family: monospace;
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   background-color: rgb(67, 226, 43);
   margin: 50px;
   border-radius: 5px;
@@ -73,6 +73,9 @@ body {
   color: white;
   border: none;
 }
+#btn-blue:hover {
+  cursor: pointer;
+}
 #btn-pink {
   border-radius: 5px;
   padding: 10px;
@@ -82,6 +85,9 @@ body {
   color: white;
   border: none;
 }
+#btn-pink:hover {
+  cursor: pointer;
+}
 #btn-green {
   border-radius: 5px;
   padding: 10px;
@@ -90,4 +96,7 @@ body {
   background-color: rgb(63, 152, 152);
   color: white;
   border: none;
+}
+#btn-green:hover {
+  cursor: pointer;
 }
