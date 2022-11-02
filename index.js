@@ -124,4 +124,63 @@ function randomBlue() {
   blueSquare.innerText = random;
 }
 
+//PINK LOGIC
+const pinkShades = [
+  "#F49CBB",
+  "#AA1155",
+  "#D56AA0",
+  "#DAA49A",
+  "#D199B6",
+  "#C493B0",
+  "#EEABC4",
+  "#E15A97",
+  "#C799A6",
+  "#E3C0D3",
+  "#FF99C9",
+  "#F7B2AD",
+  "#F26A8D",
+];
+
+const pinkSquare = document.getElementById("square2");
+
+const pinkButton = document.getElementById("btn-pink");
+
+pinkButton.addEventListener("click", randomPink);
+
+function randomPink() {
+  let random =
+    pinkShades[Math.floor(Math.random() * pinkShades.length - 1) + 1];
+  pinkSquare.style.backgroundColor = random;
+
+  pinkSquare.innerText = random;
+}
+
 //GREEN LOGIC
+const greenShades = [
+  "#436436",
+  "#D6F599",
+  "#D2FF28",
+  "#C5D86D",
+  "#1B998B",
+  "#C8FFBE",
+  "#003B36",
+  "#012622",
+  "#7FD1B9",
+  "#519872",
+  "#0FA3B1",
+  "#3B5249",
+  "#A4B494",
+];
+const greenSquare = document.getElementById("square3");
+
+const greenButton = document.getElementById("btn-green");
+
+greenButton.addEventListener("click", randomGreen);
+
+function randomGreen() {
+  let random =
+    greenShades[Math.floor(Math.random() * greenShades.length - 1) + 1];
+  greenSquare.style.backgroundColor = random;
+
+  greenSquare.innerText = random;
+}
