@@ -90,3 +90,38 @@
 // console.log(score);
 
 // alert(`thanks for the game, your score = ${score}`);
+
+// Color changer app
+
+// BLUE LOGIC
+const blueShades = [
+  "#65DEF1",
+  "#2274A5",
+  "#A5D8FF",
+  "#2F52E0",
+  "#3423A6",
+  "#7180B9",
+  "#374A67",
+  "#19647E",
+  "#3F88C5",
+  "#032B43",
+  "#648DE5",
+  "#304C89",
+  "#2DE1FC",
+];
+
+const blueSquare = document.getElementById("square1");
+
+const blueButton = document.getElementById("btn-blue");
+
+blueButton.addEventListener("click", randomBlue);
+
+function randomBlue() {
+  let random =
+    blueShades[Math.floor(Math.random() * blueShades.length - 1) + 1];
+  blueSquare.style.backgroundColor = random;
+
+  blueSquare.innerText = random;
+}
+
+//GREEN LOGIC

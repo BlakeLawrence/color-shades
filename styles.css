@@ -4,11 +4,11 @@
   box-sizing: border-box;
 }
 
-.square1 {
+#square1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: gray;
+  color: white;
   font-size: x-large;
   font-family: monospace;
   width: 200px;
@@ -16,12 +16,13 @@
   background-color: aqua;
   margin: 50px;
   border-radius: 5px;
+  text-align: center;
 }
 .square2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: gray;
+  color: white;
   font-size: x-large;
   font-family: monospace;
   width: 200px;
@@ -29,12 +30,13 @@
   background-color: pink;
   margin: 50px;
   border-radius: 5px;
+  text-align: center;
 }
 .square3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: gray;
+  color: white;
   font-size: x-large;
   font-family: monospace;
   width: 200px;
@@ -42,14 +44,17 @@
   background-color: rgb(67, 226, 43);
   margin: 50px;
   border-radius: 5px;
+  text-align: center;
 }
 
 body {
-  width: 100vw;
-  height: 100vh;
+  padding: 0;
+  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100vw;
+  height: 100vh;
 }
 
 .container {
@@ -59,7 +64,25 @@ body {
   align-items: center;
 }
 
-.btn {
+#btn-blue {
+  border-radius: 5px;
+  padding: 10px;
+  font-family: monospace;
+  font-size: x-large;
+  background-color: rgb(63, 152, 152);
+  color: white;
+  border: none;
+}
+#btn-pink {
+  border-radius: 5px;
+  padding: 10px;
+  font-family: monospace;
+  font-size: x-large;
+  background-color: rgb(63, 152, 152);
+  color: white;
+  border: none;
+}
+#btn-green {
   border-radius: 5px;
   padding: 10px;
   font-family: monospace;
