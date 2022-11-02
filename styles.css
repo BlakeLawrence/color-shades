@@ -3,6 +3,13 @@
 *::after {
   box-sizing: border-box;
 }
+body {
+  overflow: hidden;
+}
+h1 {
+  font-family: monospace;
+  font-size: 4rem;
+}
 
 #square1 {
   display: flex;
@@ -47,16 +54,19 @@
   text-align: center;
 }
 
-body {
+.main {
   padding: 0;
   margin: 0;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100vw;
   height: 100vh;
 }
-
+.colors {
+  display: flex;
+}
 .container {
   display: flex;
   flex-direction: column;
