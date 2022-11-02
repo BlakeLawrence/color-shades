@@ -20,20 +20,20 @@ export const greenShades = [
     color: "#1B998B",
   },
   {
-    name: "6 green",
+    name: "Reef",
     color: "#C8FFBE",
   },
   {
-    name: "Reef",
+    name: "Deep Teal",
     color: "#003B36",
   },
 
   {
-    name: "8 green",
+    name: "Holly",
     color: "#012622",
   },
   {
-    name: "Holly",
+    name: "Monte Carlo",
     color: "#7FD1B9",
   },
   {
@@ -41,11 +41,11 @@ export const greenShades = [
     color: "#519872",
   },
   {
-    name: "11 green",
+    name: "Green Chill",
     color: "#0FA3B1",
   },
   {
-    name: "Green Chill",
+    name: "Mineral Green",
     color: "#3B5249",
   },
   {

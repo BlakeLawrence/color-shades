@@ -19,6 +19,7 @@ function randomBlue() {
   blueSquare.innerText = random.color;
   heading.style.color = random.color;
   heading.innerHTML = random.name;
+  heading.style.fontSize = "3rem";
   headingDiv.style.justifyContent = "left";
 }
 
@@ -39,6 +40,7 @@ function randomPink() {
   pinkSquare.innerText = random.color;
   heading.style.color = random.color;
   heading.innerHTML = random.name;
+  heading.style.fontSize = "3rem";
   headingDiv.style.justifyContent = "center";
 }
 
@@ -59,5 +61,6 @@ function randomGreen() {
   greenSquare.innerText = random.color;
   heading.style.color = random.color;
   heading.innerHTML = random.name;
+  heading.style.fontSize = "3rem";
   headingDiv.style.justifyContent = "right";
 }
