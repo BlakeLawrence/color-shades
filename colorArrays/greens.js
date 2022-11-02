@@ -1,22 +1,22 @@
 export const greenShades = [
   {
-    name: "1 green",
+    name: "Chalet Green",
     color: "#436436",
   },
   {
-    name: "2 green",
+    name: "Gossip",
     color: "#D6F599",
   },
   {
-    name: "3 green",
+    name: "Green Yellow",
     color: "#D2FF28",
   },
   {
-    name: "4 green",
+    name: "Yellow Green",
     color: "#C5D86D",
   },
   {
-    name: "5 green",
+    name: "Mountain Meadow",
     color: "#1B998B",
   },
   {
@@ -24,7 +24,7 @@ export const greenShades = [
     color: "#C8FFBE",
   },
   {
-    name: "7 green",
+    name: "Reef",
     color: "#003B36",
   },
 
@@ -33,11 +33,11 @@ export const greenShades = [
     color: "#012622",
   },
   {
-    name: "9 green",
+    name: "Holly",
     color: "#7FD1B9",
   },
   {
-    name: "10 green",
+    name: "Fruit Salad",
     color: "#519872",
   },
   {
@@ -45,11 +45,11 @@ export const greenShades = [
     color: "#0FA3B1",
   },
   {
-    name: "12 green",
+    name: "Green Chill",
     color: "#3B5249",
   },
   {
-    name: "12 green",
+    name: "Schist",
     color: "#A4B494",
   },
 ];
