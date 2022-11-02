@@ -1,51 +1,51 @@
 export const pinkShades = [
   {
-    name: "1 pink",
+    name: "Illusion",
     color: "#F49CBB",
   },
   {
-    name: "2 pink",
+    name: "Jazzberry Jam",
     color: "#AA1155",
   },
   {
-    name: "3 pink",
+    name: "Hopbush",
     color: "#D56AA0",
   },
   {
-    name: "4 pink",
+    name: "Petite Orchid",
     color: "#DAA49A",
   },
   {
-    name: "5 pink",
+    name: "Viola",
     color: "#D199B6",
   },
   {
-    name: "6 pink",
+    name: "Dull Viola",
     color: "#C493B0",
   },
   {
-    name: "7 pink",
+    name: "Kobi",
     color: "#EEABC4",
   },
 
   {
-    name: "8 pink",
+    name: "Cranberry",
     color: "#E15A97",
   },
   {
-    name: "9 pink",
+    name: "Melanie",
     color: "#E3C0D3",
   },
   {
-    name: "10 pink",
+    name: "Carnation Pink",
     color: "#FF99C9",
   },
   {
-    name: "11 pink",
+    name: "Rose Bud",
     color: "#F7B2AD",
   },
   {
-    name: "12 pink",
+    name: "Froly",
     color: "#F26A8D",
   },
 ];
