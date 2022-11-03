@@ -21,6 +21,7 @@ function randomBlue() {
   blueText.style.color = random.color;
   blueText.style.visibility = "visible";
   blueText.innerHTML = random.name;
+  heading.style.color = random.color;
 }
 
 //PINK LOGIC
@@ -42,6 +43,7 @@ function randomPink() {
   pinkText.style.color = random.color;
   pinkText.innerHTML = random.name;
   pinkText.style.visibility = "visible";
+  heading.style.color = random.color;
 }
 
 //GREEN LOGIC
@@ -63,4 +65,5 @@ function randomGreen() {
   greenText.style.color = random.color;
   greenText.innerHTML = random.name;
   greenText.style.visibility = "visible";
+  heading.style.color = random.color;
 }
