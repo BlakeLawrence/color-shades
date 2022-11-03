@@ -3,13 +3,10 @@
 *::after {
   box-sizing: border-box;
 }
-body {
-  overflow: hidden;
-}
+
 h1 {
   font-family: monospace;
   font-size: 4rem;
-  text-align: center;
 }
 
 #blue {
@@ -32,8 +29,6 @@ h1 {
   width: 100vw;
   display: flex;
   justify-content: center;
-  padding-left: 225px;
-  padding-right: 225px;
 }
 #square1 {
   display: flex;
@@ -139,4 +134,58 @@ h1 {
 }
 #btn-green:hover {
   cursor: pointer;
+}
+
+@media only screen and (max-width: 800px) {
+  .colors {
+    flex-direction: column;
+  }
+
+  #square1 {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+  #square2 {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+  #square3 {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+
+  .main {
+    justify-content: space-between;
+  }
+  h1 {
+    font-size: xx-large;
+  }
+
+  #blue {
+    font-size: large;
+    margin-top: 60px;
+  }
+  #pink {
+    font-size: large;
+    margin-top: 60px;
+  }
+  #green {
+    font-size: large;
+    margin-top: 60px;
+  }
+  #btn-blue {
+    padding: 5px;
+    font-size: large;
+  }
+  #btn-pink {
+    padding: 5px;
+    font-size: large;
+  }
+  #btn-green {
+    padding: 5px;
+    font-size: large;
+  }
 }
