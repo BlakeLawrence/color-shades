@@ -14,12 +14,18 @@ h1 {
 
 #blue {
   visibility: hidden;
+  font-family: monospace;
+  font-size: xx-large;
 }
 #pink {
   visibility: hidden;
+  font-family: monospace;
+  font-size: xx-large;
 }
 #green {
   visibility: hidden;
+  font-family: monospace;
+  font-size: xx-large;
 }
 
 #heading-div {
