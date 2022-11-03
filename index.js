@@ -10,6 +10,7 @@ import { blueShades } from "./colorArrays/blues.js";
 const blueSquare = document.getElementById("square1");
 const blueButton = document.getElementById("btn-blue");
 blueButton.addEventListener("click", randomBlue);
+const blueText = document.getElementById("blue");
 
 //function to choose random blue from array and apply effects to query selectors
 function randomBlue() {
@@ -17,10 +18,9 @@ function randomBlue() {
     blueShades[Math.floor(Math.random() * blueShades.length - 1) + 1];
   blueSquare.style.backgroundColor = random.color;
   blueSquare.innerText = random.color;
-  heading.style.color = random.color;
-  heading.innerHTML = random.name;
-  heading.style.fontSize = "3rem";
-  headingDiv.style.justifyContent = "left";
+  blueText.style.color = random.color;
+  blueText.style.visibility = "visible";
+  blueText.innerHTML = random.name;
 }
 
 //PINK LOGIC
@@ -31,6 +31,7 @@ import { pinkShades } from "./colorArrays/pinks.js";
 const pinkSquare = document.getElementById("square2");
 const pinkButton = document.getElementById("btn-pink");
 pinkButton.addEventListener("click", randomPink);
+const pinkText = document.getElementById("pink");
 
 //function to choose random pink from array and apply effects to query selectors
 function randomPink() {
@@ -38,10 +39,9 @@ function randomPink() {
     pinkShades[Math.floor(Math.random() * pinkShades.length - 1) + 1];
   pinkSquare.style.backgroundColor = random.color;
   pinkSquare.innerText = random.color;
-  heading.style.color = random.color;
-  heading.innerHTML = random.name;
-  heading.style.fontSize = "3rem";
-  headingDiv.style.justifyContent = "center";
+  pinkText.style.color = random.color;
+  pinkText.innerHTML = random.name;
+  pinkText.style.visibility = "visible";
 }
 
 //GREEN LOGIC
@@ -52,6 +52,7 @@ import { greenShades } from "./colorArrays/greens.js";
 const greenSquare = document.getElementById("square3");
 const greenButton = document.getElementById("btn-green");
 greenButton.addEventListener("click", randomGreen);
+const greenText = document.getElementById("green");
 
 //function to choose random green from array and apply effects to query selectors
 function randomGreen() {
@@ -59,8 +60,7 @@ function randomGreen() {
     greenShades[Math.floor(Math.random() * greenShades.length - 1) + 1];
   greenSquare.style.backgroundColor = random.color;
   greenSquare.innerText = random.color;
-  heading.style.color = random.color;
-  heading.innerHTML = random.name;
-  heading.style.fontSize = "3rem";
-  headingDiv.style.justifyContent = "right";
+  greenText.style.color = random.color;
+  greenText.innerHTML = random.name;
+  greenText.style.visibility = "visible";
 }

@@ -12,6 +12,16 @@ h1 {
   text-align: center;
 }
 
+#blue {
+  visibility: hidden;
+}
+#pink {
+  visibility: hidden;
+}
+#green {
+  visibility: hidden;
+}
+
 #heading-div {
   width: 100vw;
   display: flex;
